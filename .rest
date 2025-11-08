@@ -1,0 +1,3 @@
+GET https://project1-fv51.onrender.com/contacts
+###
+GET https://project1-fv51.onrender.com/contacts/690e75cc5b0c887880299d97

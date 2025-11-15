@@ -1,11 +1,11 @@
 const express = require('express');
 const mongodb = require('./data/database');
-
 const app = express();
 app.set('json spaces', 2);
 
 const port = process.env.PORT || 3000;
 
+app.use(express.json());
 app.use('/', require('./routes'));
 
 mongodb.initDb((err) => {
